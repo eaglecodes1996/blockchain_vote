@@ -44,6 +44,7 @@ setTimeout(() => {
     
     const contractSource = path.join(__dirname, 'contracts', 'build', 'contracts', 'VotingSystem.json');
     const importedFiles = [
+      
       {
         dest: path.join(__dirname, 'server', 'VotingSystem.json'),
         usage: 'Server imports this'
